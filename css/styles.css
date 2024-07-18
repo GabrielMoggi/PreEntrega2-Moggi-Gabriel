@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* INICIO de INDEX*/
+.navegacion {
+    background-color: rgb(66, 125, 250);
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold
+
+    
+}
+
+.navegacion{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navegacion li a  {
+    text-decoration:none ;
+    color: black;
+    font-size: 1.25rem;
+    
+    
+    
+}
+
+.grid-inicio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.grid-banner img{
+    width: 100%;
+    height: 100%;
+}
+.titulo-1{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.875rem;
+    text-align: center;
+}
+.titulo-1  h1{
+    color: rgb(65, 129, 248);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.875rem;
+}
+
+.noticias{
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.contenedor-card{
+    display: flex;
+    flex-direction: row;
+    
+}
+.card{
+    background-color: yellow;
+    width: 100%;
+    height: 25rem
+
+}
+.card .card-img{
+    width: 100%;
+    height: 60%;
+}
+.card .card-img img{
+    width: 75%;
+    height: 100%;
+    margin-left: 4.6875rem;
+    
+}
+.card-content{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.card-content h3{
+    color: rgb(65, 129, 248) ;   
+    font-size: 1.25rem; 
+}
+.grid-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.porquenosotros{
+    color: rgb(65, 129, 248) ;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.875rem;
+    text-align: center;
+}
+.porquenosotros p{
+    font-family: "Poppins", sans-serif;
+    color: black; 
+}
+
+.pie{
+    background-color: aqua;
+    font-family: "Poppins", sans-serif;
+
+}
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+.grid-footer .pie1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+    font-family: "Poppins", sans-serif;
+    padding-top: 1.25rem;
+
+}
+.grid-footer .pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 1.25rem;
+}
+.fa-brands {
+    width: 2.5rem;
+    height: 2.5rem;       
+}
+/* Fin de INDEX*/
+
+
+/*Inicio de OPORTUNIDADES*/
+.flex-oportunidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 56.25rem;
+    
+}
+.flex-oportunidades{
+    background-image: url(../assets/imagenes/imagen-oportunidades.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.oportunidades{
+    margin-left: 25rem;
+    margin-bottom: 3.125rem;
+}
+
+
+.oportunidades h3{
+    color: rgba(255, 255, 0, 0.76);
+}
+.oportunidades p{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+}
+.banner{
+    display: grid;
+    width: 100%;
+    height: 15.625rem;
+    grid-template-columns: 100px 300px 100px 300px 100px 300px ;
+    grid-template-rows: repeat(5,50px) ;
+    
+    
+}
+
+.grid1 {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    object-fit: contain;
+    background-color: beige;
+}
+.banner p{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    margin: .9375rem 1.25rem;
+    background-color: beige;
+    
+}
+.grid2 {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    object-fit: contain;
+    background-color: beige;
+    
+    
+}
+.banner .banner2 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    margin: .9375rem 1.25rem;
+    background-color: beige;
+    
+    
+}
+/*Fin de OPORTUNIDADES*/
+
+/*Inicio de SUSTENTABILIDAD*/
+
+.flex-sustentabilidad{
+    width: 100%;
+    height: 34.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../assets/imagenes/imagen1-noticias1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.flex-sustentabilidad{
+    font-size: 1.5625rem;
+    font-weight: bold;
+}
+.flex-sustentabilidad h3{
+    color: rgba(255, 255, 0, 0.76);
+}
+.flex-sustentabilidad p {
+    color: white;
+}
+
+.politica-ambiental{
+    background-color: rgba(64, 64, 161, 0.575);
+    text-align: center;
+    padding: 1.25rem;
+}
+.article-sustentabilidad{
+    font-size: 1.25rem;
+    padding: 20px;
+    
+}
+/*Fin de SUSTENTABILIDAD*/
+
+/*Inicio de PROYECTOS*/
+
+.flex-proyectos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 43.75rem;
+    justify-content: end;
+    background-image: url(../assets/imagenes/proyecto1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.5625rem;
+    color: white;
+}
+.flex-proyectos h3{
+    color: rgba(255, 255, 0, 0.76);
+}
+.grid-proyectos{
+    display: grid;
+    width: 100%;
+    height: 40.625rem;
+    grid-template-columns: repeat(2,2fr);
+
+}
+
+.grid-proyectos2{
+    display: grid;
+    align-items: end;
+    background-image: url(../assets/imagenes/proyecto2.png);
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-proyectos3{
+    display: grid;
+    align-items: end;
+    background-image: url(../assets/imagenes/proyecto3.png);
+    background-position: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+/*FIN de PROYECTOS*/
+
+/*Inicio de NOSOTROS*/
+.flex-nosotros{
+    display: flex;
+    width: 100%;
+    height: 43.75rem;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../assets/imagenes/nosotros1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.flex-nosotros-relleno{
+    font-weight: bold;
+    font-size: 1.5625rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.459);
+    
+}
+
+
+
+.flex-nosotros h2 {
+    color: rgba(255, 255, 0, 0.76);
+    
+}
+.nosotros{
+    font-family:"Poppins", sans-serif ;
+    font-size: 1.25rem;
+}
+.grid img{
+    width: 100%;
+    height: 100%;
+}
+/*FIN de NOSOTROS*/
+
+@media (max-width:768px)  {
+
+    .grid-inicio{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .titulo-1{
+        font-size: 1.5625rem
+    }
+    .contenedor-card{
+        display: flex;
+        flex-direction: column;
+        height: 35.8125rem;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+    .card .card-img{
+        width: 22.5625rem;
+        height: 15rem;
+    }
+    .card .card-img img{
+        width: 22.5625rem;
+        height: 15rem;
+        margin-left: 0rem;
+        
+        
+    }
+    .card-content{
+        font-size:1.5625rem ;
+        margin-right: 1rem;
+    }
+    .card-content h3{
+        font-size: 1.875rem;
+    }
+    .grid-nosotros{
+        display: flex;
+        flex-direction: column;
+    }.grid-footer{
+        font-size: 1.5625rem;
+    }
+    .grid-footer .pie{
+        padding: 1.25rem;
+    }
+    .navegacion li a{
+        font-size: 1rem;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 100px 150px 100px 150px 100px 150px ;
+    }
+    
+    .grid1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        
+    }
+    
+    .banner p{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .grid2 { 
+        grid-column-start: 1;
+        grid-column-end: 2; 
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .banner .banner2 {
+        grid-column-start: 2;
+        grid-column-end: 4; 
+        grid-row-start: 4;
+        grid-row-end: 5 
+    }
+    
+        
+}
+@media (max-width:390px){
+    .navegacion   {
+        display: flex;
+        flex-direction: column; 
+    }
+    .contenedor-card{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card{
+        
+        width: 100%;
+        height: 25rem
+    
+    }
+    .card .card-img{
+        width: 100%;
+        height: 60%;
+    }
+    .card .card-img img{
+        width: 200px;
+        height: 100%;
+        
+        
+        
+    }
+    .card-content{
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    .card-content h3{
+        color: rgb(65, 129, 248) ;   
+        font-size: 1.25rem; 
+    }
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
