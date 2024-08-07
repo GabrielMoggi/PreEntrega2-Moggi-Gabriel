@@ -1,0 +1,27 @@
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-footer .pie1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+    font-family: "Poppins", sans-serif;
+    padding-top: 1.25rem;
+}
+
+.grid-footer .pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 1.25rem;
+    background-color: map-get($colores, color8 );;
+    font-family: "Poppins", sans-serif;
+}
+
+.fa-brands {
+    width: 2.5rem;
+    height: 2.5rem;
+}

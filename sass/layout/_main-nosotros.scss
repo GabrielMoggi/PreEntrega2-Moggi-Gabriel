@@ -1,0 +1,36 @@
+.flex-nosotros {
+    display: flex;
+    width: 100%;
+    height: 43.75rem;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../assets/imagenes/nosotros1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: .9375rem;
+}
+
+.flex-nosotros-relleno {
+    font-weight: bold;
+    font-size: 1.5625rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    text-align: center;
+    background-color: map-get($colores, color7 );
+}
+
+.flex-nosotros h2 {
+    color:  map-get($colores, color2 );
+}
+
+.nosotros {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: .9375rem;
+}
+
+.grid img {
+    width: 100%;
+    height: 100%;
+}

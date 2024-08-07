@@ -1,0 +1,76 @@
+.flex-oportunidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 56.25rem;
+    background-image: url(../assets/imagenes/imagen-oportunidades.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.oportunidades {
+    margin-left: 25rem;
+    margin-bottom: 3.125rem;
+
+    h3 {
+        color: map-get($colores, color2 );
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 1.25rem;
+        color: map-get($colores, color4 );
+    }
+}
+
+.banner {
+    display: grid;
+    width: 100%;
+    height: 15.625rem;
+    grid-template-columns: 100px 300px 100px 300px 100px 300px;
+    grid-template-rows: repeat(5, 50px);
+}
+
+.grid1 {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    object-fit: contain;
+    background-color: map-get($colores, color5 );
+}
+
+.banner p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    margin: .9375rem 1.25rem;
+    background-color: map-get($colores, color5 );
+}
+
+.grid2 {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    object-fit: contain;
+    background-color: map-get($colores, color5 );
+}
+
+.banner .banner2 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    margin: .9375rem 1.25rem;
+    background-color: map-get($colores, color5 );
+}

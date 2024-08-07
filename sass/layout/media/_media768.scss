@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+    .grid-inicio {
+        display: flex;
+        flex-direction: column;
+        margin-top: .9375rem;
+    }
+
+    .titulo-1 {
+        font-size: 1.5625rem;
+    }
+
+    .contenedor-card {
+        display: flex;
+        flex-direction: column;
+        height: 35.8125rem;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+
+        .card-img {
+            width: 22.5625rem;
+            height: 15rem;
+
+            img {
+                width: 22.5625rem;
+                height: 15rem;
+                margin-left: 0rem;
+            }
+        }
+    }
+
+    .card-content {
+        font-size: 1.5625rem;
+        margin-right: 1rem;
+
+        h3 {
+            font-size: 1.875rem;
+        }
+    }
+
+    .grid-nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-footer {
+        font-size: 1.5625rem;
+
+        .pie {
+            padding: 1.25rem;
+        }
+    }
+
+    .navegacion li a {
+        font-size: 1rem;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: 100px 150px 100px 150px 100px 150px;
+    }
+
+    .grid1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .banner p {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .grid2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .banner .banner2 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}

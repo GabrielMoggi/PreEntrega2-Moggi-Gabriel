@@ -1,0 +1,83 @@
+@media (max-width: 390px) {
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-1 {
+        font-size: 1.25rem;
+    }
+
+    .contenedor-card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: .9375rem;
+    }
+
+    .card {
+        width: 100%;
+        height: 25rem;
+
+        .card-img {
+            width: 100%;
+            height: 60%;
+
+            img {
+                width: 200px;
+                height: 100%;
+            }
+        }
+    }
+
+    .card-content {
+        text-align: center;
+        font-size: 1.25rem;
+
+        h3 {
+            color: map-get($colores, color1 );;
+            font-size: 1.25rem;
+        }
+    }
+
+    .porquenosotros {
+        font-size: 1.25rem;
+    }
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-size: 1.25rem;
+
+        .pie1 {
+            display: grid;
+        }
+
+        .pie {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+        }
+    }
+
+    .flex-oportunidades {
+        width: 100%;
+        height: 450px;
+    }
+
+    .flex-sustentabilidad {
+        font-size: 1.25rem;
+    }
+
+    .flex-nosotros {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
+
+    .flex-nosotros-relleno {
+        font-size: 17px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 150px;
+    }
+}
