@@ -9,7 +9,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 1.5625rem;
-    color: white;
+    color: map-get($colores, color3 );
+    font-weight: bold;
 
     h3 {
         color:  map-get($colores, color2 );

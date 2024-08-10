@@ -25,7 +25,7 @@
     font-size: 1.875rem; }
 
 .noticias {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.993);
   color: black;
   text-decoration: underline; }
 
@@ -35,7 +35,7 @@
   margin-bottom: 1.875rem; }
 
 .card {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.993);
   width: 100%;
   height: 25rem; }
   .card .card-img {
@@ -67,6 +67,10 @@
     font-family: "Poppins", sans-serif;
     color: black; }
 
+.grid img {
+  width: 100%;
+  height: 100%; }
+
 .flex-oportunidades {
   display: flex;
   flex-direction: column;
@@ -82,7 +86,7 @@
   margin-left: 25rem;
   margin-bottom: 3.125rem; }
   .oportunidades h3 {
-    color: yellow; }
+    color: rgba(255, 255, 0, 0.993); }
   .oportunidades p {
     font-weight: bold;
     font-size: 1.25rem;
@@ -147,7 +151,7 @@
   font-size: 1.5625rem;
   font-weight: bold; }
   .flex-sustentabilidad h3 {
-    color: yellow; }
+    color: rgba(255, 255, 0, 0.993); }
   .flex-sustentabilidad p {
     color: white; }
 
@@ -171,9 +175,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1.5625rem;
-  color: white; }
+  color: black;
+  font-weight: bold; }
   .flex-proyectos h3 {
-    color: yellow; }
+    color: rgba(255, 255, 0, 0.993); }
 
 .grid-proyectos {
   display: grid;
@@ -203,7 +208,7 @@
 .flex-nosotros {
   display: flex;
   width: 100%;
-  height: 43.75rem;
+  height: 100%;
   flex-direction: column;
   justify-content: end;
   background-image: url(../assets/imagenes/nosotros1.png);
@@ -217,20 +222,17 @@
   font-size: 1.5625rem;
   margin-left: 6.25rem;
   margin-right: 6.25rem;
-  text-align: center;
-  background-color: rgba(245, 245, 220, 0.459); }
+  text-align: left;
+  align-content: end;
+  color: white; }
 
 .flex-nosotros h2 {
-  color: yellow; }
+  color: rgba(255, 255, 0, 0.993); }
 
 .nosotros {
   font-family: "Poppins", sans-serif;
   font-size: 1.25rem;
   margin-bottom: .9375rem; }
-
-.grid img {
-  width: 100%;
-  height: 100%; }
 
 .navegacion {
   background-color: #4181f8;
@@ -331,7 +333,20 @@
     grid-row-start: 4;
     grid-row-end: 5; } }
 
-@media (max-width: 390px) {
+@media (min-width: 431px) and (max-width: 650px) {
+  .navegacion {
+    font-size: 1.25rem;
+    justify-content: space-around; }
+  .noticias {
+    background-color: yellow;
+    width: 700px; }
+  .card {
+    width: 700px; }
+  .card-img img {
+    height: 5px;
+    width: 5px; } }
+
+@media (max-width: 430px) {
   .navegacion {
     display: flex;
     flex-direction: column; }
@@ -370,15 +385,27 @@
   .flex-oportunidades {
     width: 100%;
     height: 450px; }
-  .flex-sustentabilidad {
-    font-size: 1.25rem; }
-  .flex-nosotros {
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    height: 400px; }
-  .flex-nosotros-relleno {
-    font-size: 17px;
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 150px; } }
+  .oportunidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px; } }
+
+.flex-sustentabilidad {
+  font-size: 1.25rem; }
+
+.flex-nosotros {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 400px; }
+
+.flex-nosotros-relleno {
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 190px; }
+
+@media (max-width: 360px) {
+  .card-content {
+    font-size: 1rem; } }
