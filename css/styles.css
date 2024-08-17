@@ -341,10 +341,7 @@
     background-color: yellow;
     width: 700px; }
   .card {
-    width: 700px; }
-  .card-img img {
-    height: 5px;
-    width: 5px; } }
+    width: 700px; } }
 
 @media (max-width: 430px) {
   .navegacion {
@@ -406,6 +403,9 @@
   margin-right: 5px;
   height: 190px; }
 
-@media (max-width: 360px) {
-  .card-content {
-    font-size: 1rem; } }
+.card-nosotros {
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  width: 100%;
+  height: auto; }
